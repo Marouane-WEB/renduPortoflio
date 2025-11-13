@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.main-nav {
+    padding: 20px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1d1d1d;
+}
+
+
+.white {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #1d1d1d;
+}
+
+
+.buy {
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #1d1d1d;
+    background-color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.padding-section {
+    padding: 80px 24px;
+}
+
+.start {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.container {
+    margin: 20px;
+
+    h2 {
+        font-family: "Epilogue";
+        font-size: 28px;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+.cards-wrapper {
+    display: flex;
+    margin: 62px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.cards {
+    h2 {
+        font-family: "Epilogue";
+        font-size: 24px;
+    }
+
+    p {
+        font-family: "Epilogue";
+        font-size: 15px;
+    }
+
+}
+
+section .dark {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-cards {
+    display: flex;
+    margin: 62px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
